@@ -19,8 +19,8 @@ export MYSQLDB = mysql://<username>:<password>@<ip address>:<port>
       Here database name is where product detail table is stored.\
   c. Update the product detail table on the basis of "sku" key.\
       i. To update name and description both:-\
-      ```python3 large_data_processing.py --action update_product_details_table --database <database name> --sku <sku key value> --name <updated name value> --desc <updated description>```
+      ```python3 large_data_processing.py --action update_product_details_table --database <database name> --sku <sku key value> --name <updated name value> --desc <updated description>```\
       ii. To Update name only:-\
-      ```python3 large_data_processing.py --action update_product_details_table --database <database name> --sku <sku key value> --name <updated name value>```
+      ```python3 large_data_processing.py --action update_product_details_table --database <database name> --sku <sku key value> --name <updated name value>```\
       iii. To Update description only:-\
       ``` python3 large_data_processing.py --action update_product_details_table --database <database name> --sku <sku key value>  --desc <updated description>```
