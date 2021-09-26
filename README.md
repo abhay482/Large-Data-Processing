@@ -24,3 +24,12 @@ export MYSQLDB = mysql://<username>:<password>@<ip address>:<port>
       ```python3 large_data_processing.py --action update_product_details_table --database <database name> --sku <sku key value> --name <updated name value>```\
       iii. To Update description only:-\
       ``` python3 large_data_processing.py --action update_product_details_table --database <database name> --sku <sku key value>  --desc <updated description>```
+
+# Tables Used
+1. product_details - To store the product.csv
+    <img width="1772" alt="Screenshot 2021-09-26 at 6 45 25 PM" src="https://user-images.githubusercontent.com/38307298/134809672-3d179b8b-597f-487e-9fa4-bddec52402ce.png">
+2. product_count - To store the aggregated value of name and no. of products
+    <img width="419" alt="Screenshot 2021-09-26 at 6 48 02 PM" src="https://user-images.githubusercontent.com/38307298/134809749-787a2318-0cfb-423e-a912-47f7208fbe62.png">
+3. product_count_update_date - To store upto which date the product_count table is updated.
+    <img width="428" alt="Screenshot 2021-09-26 at 6 50 16 PM" src="https://user-images.githubusercontent.com/38307298/134809816-22247557-49fa-464d-abc9-be3742505b8b.png">
+
