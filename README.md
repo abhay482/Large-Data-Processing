@@ -4,8 +4,8 @@ Python file which can we use to update the large file in the mysql type database
 # Steps to run the file
 1. Copy the project in the local.
 2. Open the terminal go to the folder where you copy the project.
-3. Install the required modules present in requirement.txt file using this command
-    pip install -r requirements.txt
+3. Install the required modules present in requirement.txt file using this command\
+    ```pip install -r requirements.txt```\
 4. Create a environment variable with name "MYSQLDB". It contain the user name, password and port address of the data base in this formate.
  ```
 export MYSQLDB = mysql://<username>:<password>@<ip address>:<port>
