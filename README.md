@@ -12,10 +12,10 @@ export MYSQLDB = mysql://<username>:<password>@<ip address>:<port>
 ```
 6. There are 3 different things you can do using large_data_processing.py.\
   a. Can ingest the product.csv using this command.\
-      ```python3 large_data_processing.py --action upload_product_details --database <database name> --csv <csv file address> ```
+      ```python3 large_data_processing.py --action upload_product_details --database <database name> --csv <csv file address> ```\
       Here database name is where you want to store the product detail table.\
   b. Update the product count table using this command.\
-      ```python3 large_data_processing.py --action update_product_count_table --database <database name>```
+      ```python3 large_data_processing.py --action update_product_count_table --database <database name>```\
       Here database name is where product detail table is stored.\
   c. Update the product detail table on the basis of "sku" key.\
       i. To update name and description both:-\
