@@ -43,3 +43,6 @@ export MYSQLDB = mysql://<username>:<password>@<ip address>:<port>
     Columns in the table\
     a. update_date - date upto which product_count table is updated as per the upload_date column present in product_details table.
 
+# This to improve in the code if got more time.
+1. Add a table which store the action type is perform and status of that command, if a error occurs than store the error.
+2. Add support to use different sql based databases.
