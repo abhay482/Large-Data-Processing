@@ -32,14 +32,14 @@ export MYSQLDB = mysql://<username>:<password>@<ip address>:<port>
     a. name - name of the product.\
     b. sku - is use to update the table.\
     c. description - description of the product.\
-    d. upload_date - date at which a perticular entry is appended in the table, this is use when we perfrom the aggregation query.\
+    d. upload_date - date at which a perticular entry is appended in the table, this is use when we perfrom the aggregation query.
 2. product_count - To store the aggregated value of name and no. of products.\
-    <img width="419" alt="Screenshot 2021-09-26 at 6 48 02 PM" src="https://user-images.githubusercontent.com/38307298/134809749-787a2318-0cfb-423e-a912-47f7208fbe62.png">
+    <img width="419" alt="Screenshot 2021-09-26 at 6 48 02 PM" src="https://user-images.githubusercontent.com/38307298/134809749-787a2318-0cfb-423e-a912-47f7208fbe62.png">\
      Columns in the table\
     a. name - name of the product.\
-    b. no. of products - no. of products with a perticular name.\
+    b. no. of products - no. of products with a perticular name.
 3. product_count_update_date - To store upto which date the product_count table is updated.\
-    <img width="428" alt="Screenshot 2021-09-26 at 6 50 16 PM" src="https://user-images.githubusercontent.com/38307298/134809816-22247557-49fa-464d-abc9-be3742505b8b.png">
+    <img width="428" alt="Screenshot 2021-09-26 at 6 50 16 PM" src="https://user-images.githubusercontent.com/38307298/134809816-22247557-49fa-464d-abc9-be3742505b8b.png">\
     Columns in the table\
-    a. update_date - date upto which product_count table is updated as per the upload_date column present in product_details table.\
+    a. update_date - date upto which product_count table is updated as per the upload_date column present in product_details table.
 
