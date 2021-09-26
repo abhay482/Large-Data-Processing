@@ -6,8 +6,10 @@ Python file which can we use to update the large file in the mysql type database
 2. Open the terminal go to the folder where you copy the project.
 4. Install the required modules present in requirement.txt file using this command
     pip install -r requirements.txt
-5. Create a environment variable with name "MYSQLDB". It contain the user name, password and port address of the data base in this formate:-
-   '''<username>:<password>@<ipaddress>:<port>'''
+5. Create a environment variable with name "MYSQLDB". It contain the user name, password and port address of the data base in this formate.
+   '''
+   export MYSQLDB = <username>:<password>@<ipaddress>:<port>
+   '''
 6. There are 3 different things you can do using large_data_processing.py.
     a. Can ingest the product.csv using this command.
         python3 large_data_processing.py --action upload_product_details --database <database name> --csv <csv file address> 
